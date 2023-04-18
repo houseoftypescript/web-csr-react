@@ -1,0 +1,23 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Lint Client
+yarn lint:angular
+yarn lint:react
+yarn lint:solid
+yarn lint:svelte
+# Build Client
+yarn build:angular
+yarn build:react
+yarn build:solid
+yarn build:svelte
+# Lint Server
+yarn lint:gatsby
+yarn lint:next
+yarn lint:sveltekit
+# Build Server
+yarn build:gatsby
+yarn build:next
+yarn build:sveltekit
+# Prettier
+yarn pretty-quick --staged
