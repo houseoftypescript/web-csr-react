@@ -10,7 +10,7 @@
   "type": "module",
   "engines": {
     "node": "20.0.0",
-    "npm": "9.6.4",
+    "npm": "9.6.5",
     "yarn": "1.22.19"
   },
   "scripts": {
