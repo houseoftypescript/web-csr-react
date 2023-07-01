@@ -8,11 +8,6 @@
   "license": "GNU GPL 3.0",
   "private": true,
   "type": "module",
-  "engines": {
-    "node": "20.3.1",
-    "npm": "9.7.2",
-    "yarn": "1.22.19"
-  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
